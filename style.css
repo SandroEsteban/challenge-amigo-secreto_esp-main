@@ -153,6 +153,25 @@ ul {
     font-size: 16px;
 }
 
+.button-reinicio {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: blue;
+    font-size: 16px;
+}
+
+.button-reinicio img {
+    margin-right: 40px;
+}
+
+.button-reinicio:hover {
+    background-color: var(--color-button-hover);
+}
+
+
 .button-draw img {
     margin-right: 40px;
 }

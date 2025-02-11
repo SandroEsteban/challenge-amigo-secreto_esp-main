@@ -59,5 +59,14 @@ function frenoJuego() {
     }
 }
 
+function nuevoJuego() {
+    limpiarListaDeAmigos();
+    nombreAmigoSecreto("h2", `Digite el nombre de sus amigos`);
+    let botonReinicio = document.getElementById("reinicio")
+    botonReinicio.disabled = false;
+    amigos = [];
+}
+
+console.log(amigos);
 
 
