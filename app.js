@@ -67,6 +67,6 @@ function nuevoJuego() {
     amigos = [];
 }
 
-console.log(amigos);
+console.log("Probando el commit individual");
 
 
